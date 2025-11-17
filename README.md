@@ -4,7 +4,7 @@
 
 - The PDF contains all the technical details, charts, and metrics that were part of this project. It is recommended to review the document for a deeper understanding of the results and the reasoning behind our machine learning models.
 
-![Project Logo4](./images/brute-force.jpeg)
+![Project Logo4](./brute-force.jpeg)
 ## Overview
 
 This project investigates the use of machine learning algorithms to detect and classify SSH shell attacks. It is inspired by the growing importance of network security, particularly in detecting malicious attempts on SSH servers. By leveraging both supervised and unsupervised learning models, this project aims to identify attack patterns and enhance the ability to predict future attacks with greater accuracy.
@@ -49,7 +49,7 @@ SSH is a critical protocol used to access servers remotely. Due to its importanc
 
 Machine learning techniques offer promising solutions to quickly analyze and detect abnormal patterns that might otherwise go unnoticed by human analysts. The dataset used for this project captures command sequences executed by attackers on a honeypot and provides a unique opportunity to apply machine learning to cybersecurity.
 
-![Project Logo2](./images/SSH_attack_Fb.png)
+![Project Logo2](./SSH_attack_Fb.png)
 ---
 
 ## Dataset and Pre-Processing
@@ -62,7 +62,7 @@ Key observations:
 - The frequency of attacks varies over time, with notable peaks during certain periods, especially around the end of 2019 and early 2020. This indicates specific patterns of attack that may correspond to real-world scenarios where companies have reduced activity or fewer monitoring personnel.
 - Most attacks fall into categories such as "Discovery," "Persistence," and "Execution," with "Defense Evasion" and other intents being less frequent.
 
-![Project Logo](./images/Distribution_of_intents_over_time.jpg)
+![Project Logo](./Distribution_of_intents_over_time.jpg)
 
 ### Pre-Processing: Improving Data Quality
 
