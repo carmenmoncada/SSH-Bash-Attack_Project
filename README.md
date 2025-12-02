@@ -13,8 +13,8 @@ The dataset used consists of over 233,000 rows, each representing a session with
 
 ## Authors 
 - Lorenzo Ferretti (s331942)
-- Carmen Moncada (s296675)
 - Alessio Mantineo (s324267)
+- Carmen Moncada (s296675)
 - Riccardo Tommasi (s323816)
 <div style="text-align: center;">
     <img src="./background.jpg" alt="Project Logo3" width="100"/>
