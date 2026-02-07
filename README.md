@@ -4,10 +4,11 @@
 
 This project is part of the [Machine Learning for Networking](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01DSMUV&p_a_acc=2025&p_header=S&p_lang=IT&multi=N) course at **Politecnico di Torino**. It focuses on analyzing SSH shell attack sessions recorded from SSH honeypot deployments to classify attacker intents and explore underlying patterns.
 
-- Original Project Repository: [SSH-Bash-Attack_Project
-/SSH-Shell-Attacks]([https://github.com/carmenmoncada/SSH-Bash-Attack_Project/tree/main/ssh_bash_attacks-main)]
-- Original Report Repository: [SSH-Bash-Attack_Project
-/latex-report]([(https://github.com/carmenmoncada/SSH-Bash-Attack_Project/blob/main/ssh_bash_attacks-main/SSH_ATTACKS_FINAL_VERSION.pdf))
+- **Original Project Repository:**  
+  [SSH-Bash-Attack_Project / SSH-Shell-Attacks](https://github.com/carmenmoncada/SSH-Bash-Attack_Project/tree/main/ssh_bash_attacks-main)
+- **Original Report Repository:**  
+  [SSH-Bash-Attack_Project / LaTeX Report (Final PDF)](https://github.com/carmenmoncada/SSH-Bash-Attack_Project/blob/main/ssh_bash_attacks-main/SSH_ATTACKS_FINAL_VERSION.pdf)
+
 
 > **Navigation Tip**: This `README` provides a general overview of the project. For detailed documentation, check the specific `README` files in each directory ([see Table of Contents above](#table-of-contents)). Each subdirectory contains in-depth information about its specific components.
 
