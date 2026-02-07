@@ -51,10 +51,11 @@ This project investigates the use of machine learning algorithms to detect and c
 The dataset used consists of over 233,000 rows, each representing a session with a set of commands executed by attackers on a honeypot environment. This project focuses on transforming raw session data into meaningful insights through various machine learning techniques.
 
 ## Authors 
-- Lorenzo Ferretti (s331942)
-- Alessio Mantineo (s324267)
-- Carmen Moncada (s296675)
-- Riccardo Tommasi (s323816)
+- Lorenzo Ferretti 
+- Alessio Mantineo 
+- Carmen Moncada  
+- Riccardo Tommasi
+  
 <div style="text-align: center;">
     <img src="./background.jpg" alt="Project Logo3" width="100"/>
 </div>
