@@ -1,5 +1,41 @@
 
 # SSH Attack Detection Using Machine Learning
+## Overview
+
+This project is part of the [Machine Learning for Networking](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01DSMUV&p_a_acc=2025&p_header=S&p_lang=IT&multi=N) course at **Politecnico di Torino**. It focuses on analyzing SSH shell attack sessions recorded from SSH honeypot deployments to classify attacker intents and explore underlying patterns.
+
+- Original Project Repository: [ML4Net/SSH-Shell-Attacks](https://github.com/ML4Net/SSH-Shell-Attacks)](https://github.com/carmenmoncada/SSH-Bash-Attack_Project/tree/main/ssh_bash_attacks-main)
+- Original Report Repository: [ML4Net/latex-report]([https://github.com/ML4Net/latex-report](https://github.com/carmenmoncada/SSH-Bash-Attack_Project/blob/main/ssh_bash_attacks-main/SSH_ATTACKS_FINAL_VERSION.pdf))
+
+> **Navigation Tip**: This `README` provides a general overview of the project. For detailed documentation, check the specific `README` files in each directory ([see Table of Contents above](#table-of-contents)). Each subdirectory contains in-depth information about its specific components.
+
+### Objectives
+
+1. **Classification:** Automatically identify and assign attacker intents (e.g., `Persistence`, `Discovery`, `Execution`) to each SSH attack session.
+2. **Clustering:** Group similar attack sessions to uncover attack patterns and fine-grained categories.
+3. **Language Models:** Explore advanced NLP techniques Doc2Vec for improved classification performance.
+
+## Dataset
+
+The dataset consists of approximately 230,000 Unix shell attack sessions recorded from honeypots. It includes:
+
+- **Session Commands:** Malicious commands executed in an SSH session.
+- **Timestamps:** The exact time each attack started.
+- **Labels:** Pre-assigned intents based on the MITRE ATT&CK framework.
+
+### Intents (Classes)
+
+The dataset uses 7 main intent classes:
+
+1. **Persistence**
+2. **Discovery**
+3. **Defense Evasion**
+4. **Execution**
+5. **Impact**
+6. **Other** (Miscellaneous intents)
+7. **Harmless** (Non-malicious commands)
+
+
 - This README provides a comprehensive overview of the SSH Attack Detection project using machine learning techniques. For a more detailed explanation of the project, including data analysis, methodologies, and in-depth results, please refer to the `SSH_ATTACKS_FINAL_VERSION.pdf` file located in the project directory.
 
 - The PDF contains all the technical details, charts, and metrics that were part of this project. It is recommended to review the document for a deeper understanding of the results and the reasoning behind our machine learning models.
