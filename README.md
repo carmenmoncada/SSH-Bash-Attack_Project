@@ -9,9 +9,6 @@ This project is part of the [Machine Learning for Networking](https://didattica.
 - **Original Report Repository:**  
   [SSH-Bash-Attack_Project / LaTeX Report (Final PDF)](https://github.com/carmenmoncada/SSH-Bash-Attack_Project/blob/main/ssh_bash_attacks-main/SSH_ATTACKS_FINAL_VERSION.pdf)
 
-
-> **Navigation Tip**: This `README` provides a general overview of the project. For detailed documentation, check the specific `README` files in each directory ([see Table of Contents above](#table-of-contents)). Each subdirectory contains in-depth information about its specific components.
-
 ### Objectives
 
 1. **Classification:** Automatically identify and assign attacker intents (e.g., `Persistence`, `Discovery`, `Execution`) to each SSH attack session.
@@ -38,6 +35,9 @@ The dataset uses 7 main intent classes:
 6. **Other** (Miscellaneous intents)
 7. **Harmless** (Non-malicious commands)
 
+### README
+
+> **Navigation Tip**: This `README` provides a general overview of the project. For detailed documentation, check the specific `README` files in each directory ([see Table of Contents below](#table-of-contents)). Each subdirectory contains in-depth information about its specific components.
 
 - This README provides a comprehensive overview of the SSH Attack Detection project using machine learning techniques. For a more detailed explanation of the project, including data analysis, methodologies, and in-depth results, please refer to the `SSH_ATTACKS_FINAL_VERSION.pdf` file located in the project directory.
 
